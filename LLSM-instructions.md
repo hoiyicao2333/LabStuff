@@ -2,18 +2,18 @@
 ### Get ROI from Fiji
 1. Open the MIP of the corresponding file on Fiji
 2. Rotate image 90 degrees to the left
-![](./resources/Pasted%20image%2020261027164433.png)
+<img src="./resources/Pasted%20image%2020261027164433.png" width="450">
 3. Open ROI manager
-![](./resorces/Pasted%20image%2020261027164748.png)
+<img src="./resorces/Pasted%20image%2020261027164748.png" width="450">
 This window should pop up
-![](./resources/Pasted%20image%2020261027165323.png)
+<img src="./resources/Pasted%20image%2020261027165323.png" width="450">
 4. Use the rectangle tool to draw out the ROI
-![](./resources/Pasted%20image%2020261027165406.png)
+<img src="./resources/Pasted%20image%2020261027165406.png" width="450">
 5. While the ROI bounding box is selected (make sure that you see this yellow box), click Add (the first button in the ROI manager window)
-![](.resources//Pasted%20image%2020261027165508.png)
+<img src=".resources//Pasted%20image%2020261027165508.png" width="450">
 6. There should be a chain of numbers on the left side of the window. That's the ROI. You can add more ROI with the same method. If you have more than 1, you should rename them here, if not, you can rename it when saving the file. 
 7. Go to more>> (bottom right), and click save
-![](./resources/Pasted%20image%2020261027171103.png)
+<img src="./resources/Pasted%20image%2020261027171103.png" width="450">
 8. Upload it to rockfish. The file should be very small and you could do it on login node (at least if you only have 1 ROI)
 
 **while in Fiji:**
@@ -21,7 +21,7 @@ This window should pop up
 - check which channels you want to process and their channel number
 - check how many channels are there in total you plan on doing deconv
 
-### Running the pipeline
+### Running the CLI
 
 `INPUT`: absolute path to input czi file
 
@@ -56,5 +56,5 @@ DECON_ITER: deconv iteration number
 
 
 example
-![](./resources/Pasted%20image%2020261027180108.png)
+<img src="./resources/Pasted%20image%2020261027180108.png" width="450">
 This file has 2 channels, I am only doing the first channels and for 10 time points. I am doing 1 iteration of deconvolution, and the psf path that corresponds to it should be on the first line (first psf file. The second file doesn's matter (because I am not processing a second channel), but it has to be there. 
