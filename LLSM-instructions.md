@@ -10,7 +10,7 @@ This window should pop up
 4. Use the rectangle tool to draw out the ROI
 <img src="./resources/Pasted%20image%2020261027165406.png" width="450">
 5. While the ROI bounding box is selected (make sure that you see this yellow box), click Add (the first button in the ROI manager window)
-<img src=".resources//Pasted%20image%2020261027165508.png" width="450">
+<img src="./resources/Pasted%20image%2020261027165508.png" width="450">
 6. There should be a chain of numbers on the left side of the window. That's the ROI. You can add more ROI with the same method. If you have more than 1, you should rename them here, if not, you can rename it when saving the file. 
 7. Go to more>> (bottom right), and click save
 <img src="./resources/Pasted%20image%2020261027171103.png" width="450">
