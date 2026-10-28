@@ -1,3 +1,4 @@
+## LLSM processing pipeline instructions
 ### Get ROI from Fiji
 1. Open the MIP of the corresponding file on Fiji
 2. Rotate image 90 degrees to the left
@@ -40,4 +41,5 @@ This window should pop up
 DECON_ITER: deconv iteration number
 
 example
+
 ![[Pasted image 20261027180108.png]]
