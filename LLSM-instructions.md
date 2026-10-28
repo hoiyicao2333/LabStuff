@@ -23,7 +23,7 @@ This window should pop up
 
 ### Running the CLI
 
-(Starts at line 22, also remember to change the time and number of cpus for sbatch settings. 4 hours should be fine for anything without deconv)
+(Starts at line 22, also remember to change the time, output log location, and number of cpus for sbatch settings. 4 hours should be fine for anything without deconv)
 
 `INPUT`: absolute path to input czi file
 
