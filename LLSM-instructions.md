@@ -2,18 +2,18 @@
 ### Get ROI from Fiji
 1. Open the MIP of the corresponding file on Fiji
 2. Rotate image 90 degrees to the left
-![](./resources/Pasted%image%20261027164433.png)
+![](./resources/Pasted%20image%2020261027164433.png)
 3. Open ROI manager
-![](./resorces/Pasted%image%20261027164748.png)
+![](./resorces/Pasted%20image%2020261027164748.png)
 This window should pop up
-![](./resources/Pasted%image%20261027165323.png)
+![](./resources/Pasted%20image%2020261027165323.png)
 4. Use the rectangle tool to draw out the ROI
-![](./resources/Pasted%image%20261027165406.png)
+![](./resources/Pasted%20image%2020261027165406.png)
 5. While the ROI bounding box is selected (make sure that you see this yellow box), click Add (the first button in the ROI manager window)
-![](.resources//Pasted%image%20261027165508.png)
+![](.resources//Pasted%20image%2020261027165508.png)
 6. There should be a chain of numbers on the left side of the window. That's the ROI. You can add more ROI with the same method. If you have more than 1, you should rename them here, if not, you can rename it when saving the file. 
 7. Go to more>> (bottom right), and click save
-![](./resources/Pasted%image%20261027171103.png)
+![](./resources/Pasted%20image%2020261027171103.png)
 8. Upload it to rockfish. The file should be very small and you could do it on login node (at least if you only have 1 ROI)
 
 **while in Fiji:**
@@ -48,9 +48,7 @@ This window should pop up
 
 `DECONV`: type TRUE or FALSE without quotation marks
 
-`PSF_FILE`=("absolute path to psf file of the first channel"
-
-"after a new line, absolute path to the psf of the second channel")
+`PSF_FILE`=("absolute path to psf file of the first channel, start a new line, and list absolute path to the psf of the second channel")
 
 *if you are using deconv, you have to input the same number psf files as the number of channels that the original czi file has, even if you are not processing all of them*
 
@@ -58,4 +56,5 @@ DECON_ITER: deconv iteration number
 
 
 example
-![](./resources/Pasted%image%20261027180108.png)
+![](./resources/Pasted%20image%2020261027180108.png)
+This file has 2 channels, I am only doing the first channels and for 10 time points. I am doing 1 iteration of deconvolution, and the psf path that corresponds to it should be on the first line (first psf file. The second file doesn's matter (because I am not processing a second channel), but it has to be there. 
