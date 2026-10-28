@@ -4,7 +4,7 @@
 2. Rotate image 90 degrees to the left
 <img src="./resources/Pasted%20image%2020261027164433.png" width="450">
 3. Open ROI manager
-<img src="./resorces/Pasted%20image%2020261027164748.png" width="450">
+<img src="./resources/Pasted%20image%2020261027164748.png" width="450">
 This window should pop up
 <img src="./resources/Pasted%20image%2020261027165323.png" width="450">
 4. Use the rectangle tool to draw out the ROI
@@ -59,7 +59,7 @@ DECON_ITER: deconv iteration number
 
 example
 
-`# Things to change
+`
 INPUT="/home/hcao34/data_slajoie1/LLSM_File_Input/BMDM/MP/MP-0.4/PBS/MP-PBS-03.czi"
 ROI_LIST="/home/hcao34/roi/EH031_MP-0.4_PBS-03.roi"
 OUTPUT_PATH="/home/hcao34/data_slajoie1/LLSM_File_Output/BMDM/MP/MP-0.4/PBS/EH031_PROCESSING"
@@ -74,7 +74,6 @@ PSF_FILE=(
 "/home/hcao34/LLSM_approx_PSFs/SiR_Actin_FarRed_APPROX_RAW_Y30deg_145nm_200nm.tif"
 "/home/hcao34/LLSM_approx_PSFs/pHrodo_Red_APPROX_RAW_Y30deg_145nm_200nm.tif")
 DECON_ITER=1
-
-# End of things to change`
+`
 
 This file has 2 channels, I am only doing the first channels and for 10 time points. I am doing 1 iteration of deconvolution, and the psf path that corresponds to it should be on the first line (first psf file. The second file doesn's matter (because I am not processing a second channel), but it has to be there. 
