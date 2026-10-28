@@ -2,18 +2,18 @@
 ### Get ROI from Fiji
 1. Open the MIP of the corresponding file on Fiji
 2. Rotate image 90 degrees to the left
-![[resources/Pasted image 20261027164433.png|358]]
+!(./resources/Pasted image 20261027164433.png)
 3. Open ROI manager
-![[resorces/Pasted image 20261027164748.png|316]]
+!(./resorces/Pasted image 20261027164748.png)
 This window should pop up
-![[Pasted image 20261027165323.png|265]]
+!(./Pasted image 20261027165323.png)
 4. Use the rectangle tool to draw out the ROI
-![[resources/Pasted image 20261027165406.png]]
+!(./resources/Pasted image 20261027165406.png)
 5. While the ROI bounding box is selected (make sure that you see this yellow box), click Add (the first button in the ROI manager window)
-![[Pasted image 20261027165508.png]]
+!(./Pasted image 20261027165508.png)
 6. There should be a chain of numbers on the left side of the window. That's the ROI. You can add more ROI with the same method. If you have more than 1, you should rename them here, if not, you can rename it when saving the file. 
 7. Go to more>> (bottom right), and click save
-![[resources/Pasted image 20261027171103.png|275]]
+!(./resources/Pasted image 20261027171103.png)
 8. Upload it to rockfish. The file should be very small and you could do it on login node (at least if you only have 1 ROI)
 **while in Fiji:**
 - check the total time points (or the time point you want to process)
@@ -41,4 +41,4 @@ This window should pop up
 DECON_ITER: deconv iteration number
 
 example
-![[resources/Pasted image 20261027180108.png]]
+!(./resources/Pasted image 20261027180108.png)
