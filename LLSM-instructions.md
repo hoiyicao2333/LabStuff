@@ -23,6 +23,8 @@ This window should pop up
 
 ### Running the CLI
 
+(Starts at line 22, also remember to change the time and number of cpus for sbatch settings. 4 hours should be fine for anything without deconv)
+
 `INPUT`: absolute path to input czi file
 
 `ROI_LIST`: absolute path to roi file, could technically be a list of files, but never tested
@@ -56,5 +58,23 @@ DECON_ITER: deconv iteration number
 
 
 example
-<img src="./resources/Pasted%20image%2020261027180108.png" width="450">
+
+`# Things to change
+INPUT="/home/hcao34/data_slajoie1/LLSM_File_Input/BMDM/MP/MP-0.4/PBS/MP-PBS-03.czi"
+ROI_LIST="/home/hcao34/roi/EH031_MP-0.4_PBS-03.roi"
+OUTPUT_PATH="/home/hcao34/data_slajoie1/LLSM_File_Output/BMDM/MP/MP-0.4/PBS/EH031_PROCESSING"
+OUTPUT_NAME="EH031_MP-0.4_PBS-03_CROPPED_DESKEWED_CHANNEL_1"
+CH_START=0
+CH_END=1
+T_START=0
+T_END=100
+
+DECONV=FALSE
+PSF_FILE=(
+"/home/hcao34/LLSM_approx_PSFs/SiR_Actin_FarRed_APPROX_RAW_Y30deg_145nm_200nm.tif"
+"/home/hcao34/LLSM_approx_PSFs/pHrodo_Red_APPROX_RAW_Y30deg_145nm_200nm.tif")
+DECON_ITER=1
+
+# End of things to change`
+
 This file has 2 channels, I am only doing the first channels and for 10 time points. I am doing 1 iteration of deconvolution, and the psf path that corresponds to it should be on the first line (first psf file. The second file doesn's matter (because I am not processing a second channel), but it has to be there. 
