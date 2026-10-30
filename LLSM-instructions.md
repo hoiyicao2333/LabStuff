@@ -36,10 +36,10 @@ This file has 2 channels, I am only doing the first channels and for 10 time poi
 `sbatch scr4_slajoie1/LLSMBatch.sh -in temp/input.txt -roi roi.txt`
 
 temp/input.txt
-<img src="Pasted%20image%2020261029214532.png" width="900">
+<img src="resources/Pasted%20image%2020261029214532.png" width="900">
 
 temp/roi.txt
-<img src="Pasted%20image%2020261029214656.png" width="400">
+<img src="resources/Pasted%20image%2020261029214656.png" width="400">
 
 without giving an output.txt, the outputs would be 
 1. /home/hcao34/data_slajoie1/LLSM_File_Output/hypothetical_dir1/PM_ADDED-03_CROPPED_DESKEWED_BATCH.ome.zarr
@@ -50,7 +50,7 @@ To specify the output dir, attach an additional file that lists its path
 `sbatch scr4_slajoie1/LLSMBatch.sh -in temp/input.txt -roi roi.txt -o temp/output.txt`
 
 temp/output.txt
-<img src="Pasted%20image%2020261029220147.png" width="300">
+<img src="resources/Pasted%20image%2020261029220147.png" width="300">
 
 This would put the output files to 
 1. /home/hcao34/alt_path1/PM_ADDED-03_CROPPED_DESKEWED_BATCH.ome.zarr
