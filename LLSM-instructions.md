@@ -78,6 +78,7 @@ This window should pop up
 <img src="./resources/Pasted%20image%2020261027171103.png" width="250">
 8. Upload it to rockfish. The file should be very small and you could do it on login node
 
+
 **Also check these in Fiji if you are running the CLI for single file:**
 - check the total time points (or the time point you want to process)
 - check which channels you want to process and their channel number
